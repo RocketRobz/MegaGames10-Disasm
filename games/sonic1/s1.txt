@@ -1,0 +1,500 @@
+/***********************Directories***************************/
+#dir	artunc
+#dir	artnem
+#dir	artkos
+#dir	pallet
+#dir	mapeni
+#dir	map16
+#dir	map256
+#dir	sslayout
+#dir	levels
+#dir	objpos
+#dir	collide
+#dir	sound
+#dir	demodata
+#dir	misc
+#dir	artnem_u
+#dir	artkos_u
+#dir	mapeni_u
+#dir	map16_u
+#dir	map256_u
+#dir	sslay_u
+
+
+/***********************pallet***************************/
+#split	0x001B66,0x001B86,pallet\c_title.bin
+#split	0x001B86,0x001BA6,pallet\c_ghz.bin
+#split	0x001BA6,0x001BC6,pallet\c_lz_wat.bin
+#split	0x001BC6,0x001BD8,pallet\c_lz_bel.bin
+#split	0x001BD8,0x001BEA,pallet\c_lz_buw.bin
+#split	0x001BEA,0x001C52,pallet\c_sbz3_w.bin
+#split	0x001C52,0x001C76,pallet\c_slz.bin
+#split	0x001C76,0x001C96,pallet\c_syz_1.bin
+#split	0x001C96,0x001CA6,pallet\c_syz_2.bin
+#split	0x001D0A,0x001D1A,pallet\c_sbz_1.bin
+#split	0x001D1A,0x001D2A,pallet\c_sbz_2.bin
+#split	0x001D2A,0x001D3A,pallet\c_sbz_3.bin
+#split	0x001D3A,0x001D46,pallet\c_sbz_4.bin
+#split	0x001D46,0x001D56,pallet\c_sbz_5.bin
+#split	0x001D56,0x001D66,pallet\c_sbz_6.bin
+#split	0x001D66,0x001D86,pallet\c_sbz_7.bin
+#split	0x001D86,0x001D90,pallet\c_sbz_8.bin
+#split	0x001D90,0x001DA0,pallet\c_sbz_9.bin
+#split	0x001DA0,0x001DAC,pallet\c_sbz_10.bin
+#split	0x0020C0,0x0020CC,pallet\sega1.bin
+#split	0x0020CC,0x0020FC,pallet\sega2.bin
+#split	0x002208,0x002288,pallet\sega_bg.bin
+#split	0x002288,0x002308,pallet\title.bin
+#split	0x002308,0x002388,pallet\levelsel.bin
+#split	0x002388,0x0023A8,pallet\sonic.bin
+#split	0x0023A8,0x002408,pallet\ghz.bin
+#split	0x002408,0x002468,pallet\lz.bin
+#split	0x002468,0x0024E8,pallet\lz_uw.bin
+#split	0x0024E8,0x002548,pallet\mz.bin
+#split	0x002548,0x0025A8,pallet\slz.bin
+#split	0x0025A8,0x002608,pallet\syz.bin
+#split	0x002608,0x002668,pallet\sbz_act1.bin
+#split	0x002668,0x0026C8,pallet\sbz_act2.bin
+#split	0x0026C8,0x002748,pallet\special.bin
+#split	0x002748,0x0027A8,pallet\sbz_act3.bin
+#split	0x0027A8,0x002828,pallet\sbz_a3uw.bin
+#split	0x002828,0x002848,pallet\son_lzuw.bin
+#split	0x002848,0x002868,pallet\son_sbzu.bin
+#split	0x002868,0x0028E8,pallet\ssresult.bin
+#split	0x0028E8,0x002928,pallet\sscontin.bin
+#split	0x002928,0x0029A8,pallet\ending.bin
+#split	0x004ACA,0x004B12,pallet\c_ss_1.bin
+#split	0x004B12,0x004BE4,pallet\c_ss_2.bin
+
+
+/***********************Uncompressed art***************************/
+#split	0x0005F0,0x000B10,artunc\menutext.bin
+#split	0x01CADA,0x01CDDA,artunc\HUD.bin
+#split	0x01CDDA,0x01CF1A,artunc\livescnt.bin
+#split	0x021AFE,0x02BC1E,artunc\sonic.bin
+#split	0x066AD6,0x066CD6,artunc\ghzwater.bin
+#split	0x066CD6,0x0670D6,artunc\ghzflowl.bin
+#split	0x0670D6,0x067556,artunc\ghzflows.bin
+#split	0x067556,0x067856,artunc\mzlava1.bin
+#split	0x067856,0x067E56,artunc\mzlava2.bin
+#split	0x067E56,0x068156,artunc\mztorch.bin
+#split	0x068156,0x068BD6,artunc\sbzsmoke.bin
+#split	0x06A324,0x06AF64,artunc\bigring.bin
+
+
+/*********************Nemesis compressed art************************/
+#split	0x01DC00,0x01E062,artnem\segalogo.bin
+#split	0x01E26E,0x01F27A,artnem\titlefor.bin
+#split	0x01F27A,0x020C48,artnem\titleson.bin
+#split	0x020C48,0x020C7C,artnem\titletm.bin
+#split	0x020D3A,0x0211E2,artnem\japcreds.bin
+#split	0x02BC1E,0x02BD22,artnem\xxxsmoke.bin
+#split	0x02BD22,0x02BD5C,artnem\xxxstars.bin
+#split	0x02BD5C,0x02BEF2,artnem\shield.bin
+#split	0x02BEF2,0x02C03A,artnem\invstars.bin
+#split	0x02C03A,0x02C144,artnem\xxxlzson.bin
+#split	0x02C144,0x02C196,artnem\xxxfire.bin
+#split	0x02C196,0x02C3DE,artnem\xxxflash.bin
+#split	0x02C3DE,0x02C564,artnem\xxxgoggl.bin
+#split	0x02C5E4,0x02CF1C,artnem\sswalls.bin
+#split	0x02D050,0x02DCE0,artnem\ssbg1.bin
+#split	0x02DFE0,0x02E4D4,artnem\ssbg2.bin
+#split	0x02E4D4,0x02E5C2,artnem\ssgoal.bin
+#split	0x02E5C2,0x02E692,artnem\ssr.bin
+#split	0x02E692,0x02E788,artnem\ss1up.bin
+#split	0x02E788,0x02E7E6,artnem\ssemstar.bin
+#split	0x02E7E6,0x02E878,artnem\ssredwhi.bin
+#split	0x02E878,0x02E93A,artnem\sszone1.bin
+#split	0x02E93A,0x02EA08,artnem\sszone2.bin
+#split	0x02EA08,0x02EAD4,artnem\sszone3.bin
+#split	0x02EAD4,0x02EB9C,artnem\sszone4.bin
+#split	0x02EB9C,0x02EC66,artnem\sszone5.bin
+#split	0x02EC66,0x02ED36,artnem\sszone6.bin
+#split	0x02ED36,0x02EF2A,artnem\ssupdown.bin
+#split	0x02EF2A,0x02F092,artnem\ssemeral.bin
+#split	0x02F092,0x02F142,artnem\ssghost.bin
+#split	0x02F142,0x02F21C,artnem\ssw.bin
+#split	0x02F21C,0x02F2A0,artnem\ssglass.bin
+#split	0x02F2A0,0x02F41E,artnem\ssresems.bin
+#split	0x02F41E,0x02F468,artnem\ghzstalk.bin
+#split	0x02F468,0x02F582,artnem\ghzswing.bin
+#split	0x02F582,0x02F66E,artnem\ghzbridg.bin
+#split	0x02F66E,0x02F6B6,artnem\xxxghzbl.bin
+#split	0x02F6B6,0x02F854,artnem\ghzball.bin
+#split	0x02F854,0x02F8D0,artnem\spikes.bin
+#split	0x02F8D0,0x02FAE4,artnem\xxxghzlo.bin
+#split	0x02FAE4,0x02FC10,artnem\ghzlog.bin
+#split	0x02FC10,0x02FD3E,artnem\ghzrock.bin
+#split	0x02FD3E,0x02FDDC,artnem\ghzwall1.bin
+#split	0x02FDDC,0x02FE3C,artnem\ghzwall2.bin
+#split	0x02FE3C,0x02FF60,artnem\lzwater.bin
+#split	0x02FF60,0x030754,artnem\lzsplash.bin
+#split	0x030754,0x0308D4,artnem\lzspball.bin
+#split	0x0308D4,0x030A3E,artnem\lzflapdo.bin
+#split	0x030A3E,0x031094,artnem\lzbubble.bin
+#split	0x031094,0x03114A,artnem\lzblock3.bin
+#split	0x03114A,0x0311EC,artnem\lzvdoor.bin
+#split	0x0311EC,0x031348,artnem\lzharpoo.bin
+#split	0x031348,0x0313AC,artnem\lzpole.bin
+#split	0x0313AC,0x0314FE,artnem\lzhdoor.bin
+#split	0x0314FE,0x0319E0,artnem\lzwheel.bin
+#split	0x0319E0,0x031B50,artnem\lzgargoy.bin
+#split	0x031B50,0x031E08,artnem\lzblock2.bin
+#split	0x031E08,0x031F40,artnem\lzptform.bin
+#split	0x031F40,0x03206A,artnem\lzcork.bin
+#split	0x03206A,0x03217A,artnem\lzblock1.bin
+#split	0x03217A,0x032408,artnem\mzmetal.bin
+#split	0x032408,0x0324C6,artnem\mzswitch.bin
+#split	0x0324C6,0x03257E,artnem\mzglassy.bin
+#split	0x03257E,0x0325D2,artnem\xxxgrass.bin
+#split	0x0325D2,0x0328B0,artnem\mzfire.bin
+#split	0x0328B0,0x0331C6,artnem\mzlava.bin
+#split	0x0331C6,0x03332A,artnem\mzblock.bin
+#split	0x03332A,0x0333B2,artnem\xxxmzblo.bin
+#split	0x0333B2,0x0335EE,artnem\slzseesa.bin
+#split	0x0335EE,0x033734,artnem\slzspike.bin
+#split	0x033734,0x033978,artnem\slzfan.bin
+#split	0x033978,0x0339DA,artnem\slzwall.bin
+#split	0x0339DA,0x033ABC,artnem\slzpylon.bin
+#split	0x033ABC,0x033C9E,artnem\slzswing.bin
+#split	0x033C9E,0x033DAA,artnem\slzblock.bin
+#split	0x033DAA,0x033E4E,artnem\slzcanno.bin
+#split	0x033E4E,0x033FB8,artnem\syzbumpe.bin
+#split	0x033FB8,0x03401A,artnem\syzsspik.bin
+#split	0x03401A,0x0340FC,artnem\switch.bin
+#split	0x0340FC,0x03438A,artnem\syzlspik.bin
+#split	0x03438A,0x0343DE,artnem\sbzwhee1.bin
+#split	0x0343DE,0x03467A,artnem\sbzwhee2.bin
+#split	0x03467A,0x03487E,artnem\sbzcutte.bin
+#split	0x03487E,0x034A1C,artnem\sbzstomp.bin
+#split	0x034A1C,0x034D4C,artnem\sbzpform.bin
+#split	0x034D4C,0x034F2A,artnem\sbztrapd.bin
+#split	0x034F2A,0x034F82,artnem\sbzfloor.bin
+#split	0x034F82,0x035102,artnem\sbzshock.bin
+#split	0x035102,0x035200,artnem\sbzvanis.bin
+#split	0x035200,0x03538C,artnem\sbzflame.bin
+#split	0x03538C,0x0353DC,artnem\sbzvdoor.bin
+#split	0x0353DC,0x035434,artnem\sbzslide.bin
+#split	0x035434,0x035530,artnem\sbzhdoor.bin
+#split	0x035530,0x035646,artnem\sbzgirde.bin
+#split	0x035646,0x035A06,artnem\ballhog.bin
+#split	0x035A06,0x035EF4,artnem\crabmeat.bin
+#split	0x035EF4,0x03629A,artnem\buzzbomb.bin
+#split	0x03629A,0x036482,artnem\xxxexplo.bin
+#split	0x036482,0x036B6C,artnem\burrobot.bin
+#split	0x036B6C,0x036DD4,artnem\chopper.bin
+#split	0x036DD4,0x03705E,artnem\jaws.bin
+#split	0x03705E,0x037582,artnem\roller.bin
+#split	0x037582,0x03780C,artnem\motobug.bin
+#split	0x03780C,0x037E2A,artnem\newtron.bin
+#split	0x037E2A,0x038212,artnem\yadrin.bin
+#split	0x038212,0x03850E,artnem\basaran.bin
+#split	0x03850E,0x038756,artnem\splats.bin
+#split	0x038756,0x0389EE,artnem\bomb.bin
+#split	0x0389EE,0x038BCC,artnem\orbinaut.bin
+#split	0x038BCC,0x038D5A,artnem\caterkil.bin
+#split	0x038D5A,0x039368,artnem\ttlcards.bin
+#split	0x039368,0x03945E,artnem\hud.bin
+#split	0x03945E,0x039564,artnem\lifeicon.bin
+#split	0x039564,0x039658,artnem\rings.bin
+#split	0x039658,0x039AB8,artnem\monitors.bin
+#split	0x039AB8,0x03A11E,artnem\explosio.bin
+#split	0x03A11E,0x03A1CE,artnem\points.bin
+#split	0x03A1CE,0x03A360,artnem\gameover.bin
+#split	0x03A360,0x03A462,artnem\springh.bin
+#split	0x03A462,0x03A53E,artnem\springv.bin
+#split	0x03A53E,0x03A9BA,artnem\signpost.bin
+#split	0x03A9BA,0x03AA7A,artnem\lamppost.bin
+#split	0x03AA7A,0x03ABEE,artnem\rngflash.bin
+#split	0x03ABEE,0x03AEF0,artnem\bonus.bin
+#split	0x03AEF0,0x03B1A0,artnem\cntsonic.bin
+#split	0x03B1A0,0x03B3DA,artnem\cntother.bin
+#split	0x03B3DA,0x03B532,artnem\rabbit.bin
+#split	0x03B532,0x03B68E,artnem\chicken.bin
+#split	0x03B68E,0x03B80A,artnem\blackbrd.bin
+#split	0x03B80A,0x03B926,artnem\seal.bin
+#split	0x03B926,0x03BA5C,artnem\pig.bin
+#split	0x03BA5C,0x03BB96,artnem\flicky.bin
+#split	0x03BB96,0x03BCF2,artnem\squirrel.bin
+#split	0x03C692,0x03DCF2,artnem\8x8ghz1.bin
+#split	0x03DCF2,0x03F09A,artnem\8x8ghz2.bin
+#split	0x0414D4,0x04301C,artnem\8x8lz.bin
+#split	0x046016,0x04885A,artnem\8x8mz.bin
+#split	0x04A7FE,0x04E352,artnem\8x8slz.bin
+#split	0x0510F0,0x05481C,artnem\8x8syz.bin
+#split	0x057A66,0x05A212,artnem\8x8sbz.bin
+#split	0x05CC62,0x05D4C6,artnem\bossmain.bin
+#split	0x05D4C6,0x05D7B0,artnem\bossxtra.bin
+#split	0x05D7B0,0x05E034,artnem\prison.bin
+#split	0x05E034,0x05E860,artnem\sbz2boss.bin
+#split	0x05E860,0x05EFC8,artnem\fzboss.bin
+#split	0x05EFC8,0x05F548,artnem\fzboss2.bin
+#split	0x05F548,0x05F668,artnem\bossflam.bin
+#split	0x05F668,0x05F866,artnem\endemera.bin
+#split	0x05F866,0x060A44,artnem\endsonic.bin
+#split	0x060A44,0x061388,artnem\tryagain.bin
+#split	0x061388,0x06175E,artnem\xxxend.bin
+#split	0x061CEE,0x061F76,artnem\endflowe.bin
+#split	0x061F76,0x062574,artnem\credits.bin
+#split	0x062574,0x0627FC,artnem\endtext.bin
+
+
+/*********************Kozinski compressed art************************/
+#split	0x06175E,0x061CEE,artkos\flowers.bin
+
+
+/*********************Misc mappings************************/
+#split	0x01E062,0x01E15A,mapeni\segalogo.bin
+#split	0x01E15A,0x01E26E,mapeni\titlescr.bin
+#split	0x020C7C,0x020D3A,mapeni\japcreds.bin
+#split	0x02CF1C,0x02D050,mapeni\ssbg1.bin
+#split	0x02DCE0,0x02DFE0,mapeni\ssbg2.bin
+
+
+/***********************Collision***************************/
+#split	0x062900,0x062A00,collide\anglemap.bin
+#split	0x062A00,0x063A00,collide\carray_n.bin
+#split	0x063A00,0x064A00,collide\carray_r.bin
+#split	0x064A00,0x064B9A,collide\ghz.bin
+#split	0x064B9A,0x064C62,collide\lz.bin
+#split	0x064C62,0x064DF2,collide\mz.bin
+#split	0x064DF2,0x064FE6,collide\slz.bin
+#split	0x064FE6,0x0651DA,collide\syz.bin
+#split	0x0651DA,0x065432,collide\sbz.bin
+
+
+/***********************Levels***************************/
+#split	0x068C7E,0x068D70,levels\ghz1.bin
+#split	0x068D74,0x068E3C,levels\ghz2.bin
+#split	0x068E40,0x068F62,levels\ghz3.bin
+#split	0x068F62,0x068F84,levels\ghzbg.bin
+#split	0x068F8C,0x06908E,levels\lz1.bin
+#split	0x06908E,0x069190,levels\lzbg.bin
+#split	0x069194,0x06922E,levels\lz2.bin
+#split	0x069232,0x06934C,levels\lz3.bin
+#split	0x069350,0x06940A,levels\sbz3.bin
+#split	0x06940E,0x0694AC,levels\mz1.bin
+#split	0x0694AC,0x069526,levels\mz1bg.bin
+#split	0x069526,0x0695CA,levels\mz2.bin
+#split	0x0695CA,0x06965C,levels\mz2bg.bin
+#split	0x069660,0x069742,levels\mz3.bin
+#split	0x069742,0x0697E6,levels\mz3bg.bin
+#split	0x0697EE,0x069900,levels\slz1.bin
+#split	0x069900,0x06997A,levels\slzbg.bin
+#split	0x06997A,0x069A6A,levels\slz2.bin
+#split	0x069A6A,0x069B84,levels\slz3.bin
+#split	0x069B88,0x069C44,levels\syz1.bin
+#split	0x069C44,0x069C7E,levels\syzbg.bin
+#split	0x069C82,0x069D86,levels\syz2.bin
+#split	0x069D8A,0x069EE4,levels\syz3.bin
+#split	0x069EEC,0x06A00E,levels\sbz1.bin
+#split	0x06A00E,0x06A04C,levels\sbz1bg.bin
+#split	0x06A04C,0x06A18E,levels\sbz2.bin
+#split	0x06A18E,0x06A2F8,levels\sbz2bg.bin
+#split	0x06A300,0x06A320,levels\ending.bin
+
+
+/***********************16x16 block mappings***************************/
+#split	0x03BCF2,0x03C692,map16\ghz.bin
+#split	0x0411AA,0x0414D4,map16\lz.bin
+#split	0x04580C,0x046016,map16\mz.bin
+#split	0x04A01A,0x04A7FE,map16\slz.bin
+#split	0x050782,0x0510F0,map16\syz.bin
+#split	0x056BCC,0x057A66,map16\sbz.bin
+
+
+/***********************256x256 block mappings***************************/
+#split	0x03F09A,0x0411AA,map256\ghz.bin
+#split	0x04301C,0x04580C,map256\lz.bin
+#split	0x04885A,0x04A01A,map256\mz.bin
+#split	0x04E352,0x050782,map256\slz.bin
+#split	0x05481C,0x056BCC,map256\syz.bin
+#split	0x05A212,0x05CC62,map256\sbz.bin
+
+
+/***********************Special stages***************************/
+#split	0x065432,0x0656AC,sslayout\1.bin
+#split	0x0656AC,0x065ABE,sslayout\2.bin
+#split	0x065ABE,0x065E1A,sslayout\3.bin
+#split	0x065E1A,0x0662F4,sslayout\4.bin
+#split	0x0662F4,0x0667C6,sslayout\5.bin
+#split	0x0667C6,0x066AD6,sslayout\6.bin
+
+
+/***********************Misc stuff***************************/
+#split	0x0029F2,0x002C72,misc\sinewave.bin
+#split	0x002D0E,0x002E10,misc\angles.bin
+#split	0x00337A,0x0033A4,misc\ls_point.bin
+#split	0x0033A4,0x0033AA,misc\ls_jcode.bin
+#split	0x0033AA,0x0033B0,misc\ls_ucode.bin
+#split	0x003458,0x003460,misc\dm_ord1.bin
+#split	0x0035A2,0x00379A,misc\menutext.bin
+#split	0x00379A,0x0037A2,misc\muslist1.bin
+#split	0x003C2A,0x003C32,misc\lz_heigh.bin
+#split	0x0058F8,0x005908,misc\dm_ord2.bin
+#split	0x005F1C,0x00606C,misc\lvl_size.bin
+#split	0x00606C,0x00608C,misc\sloc_end.bin
+#split	0x006112,0x006182,misc\sloc_lev.bin
+#split	0x006182,0x00619E,misc\loopnums.bin
+#split	0x0076CC,0x0077DC,misc\ghzbend1.bin
+#split	0x0077DC,0x0078DC,misc\ghzbend2.bin
+#split	0x008570,0x0085A0,misc\ghzledge.bin
+#split	0x00B118,0x00B164,misc\mz_pfm1.bin
+#split	0x00B164,0x00B190,misc\mz_pfm2.bin
+#split	0x00B190,0x00B1DC,misc\mz_pfm3.bin
+#split	0x00C6F4,0x00C724,misc\lvl_ord.bin
+#split	0x011944,0x011974,misc\slzssaw1.bin
+#split	0x011974,0x0119A4,misc\slzssaw2.bin
+#split	0x012CC8,0x012CCE,misc\muslist2.bin
+#split	0x01B664,0x01B67C,misc\sloc_ss.bin
+#split	0x01DB12,0x01DC00,misc\padding.bin
+#split	0x0627FC,0x062900,misc\padding2.bin
+#split	0x06AF64,0x06B000,misc\padding3.bin
+#split	0x071366,0x071990,misc\padding4.bin
+
+
+/***********************Sprite location lists***************************/
+#split	0x06B096,0x06B5A0,objpos\ghz1.bin
+#split	0x06B5A0,0x06BB5E,objpos\ghz2.bin
+#split	0x06BB5E,0x06C218,objpos\ghz3.bin
+#split	0x06C218,0x06C686,objpos\lz1.bin
+#split	0x06C686,0x06C9C8,objpos\lz2.bin
+#split	0x06C9C8,0x06CFAA,objpos\lz3.bin
+#split	0x06CFAA,0x06D442,objpos\sbz3.bin
+#split	0x06D442,0x06D474,objpos\lz1pf1.bin
+#split	0x06D474,0x06D4A6,objpos\lz1pf2.bin
+#split	0x06D4A6,0x06D4D8,objpos\lz2pf1.bin
+#split	0x06D4D8,0x06D50A,objpos\lz2pf2.bin
+#split	0x06D50A,0x06D554,objpos\lz3pf1.bin
+#split	0x06D554,0x06D592,objpos\lz3pf2.bin
+#split	0x06D592,0x06D8FE,objpos\mz1.bin
+#split	0x06D8FE,0x06DDA8,objpos\mz2.bin
+#split	0x06DDA8,0x06E31E,objpos\mz3.bin
+#split	0x06E31E,0x06E85E,objpos\slz1.bin
+#split	0x06E85E,0x06ECC6,objpos\slz2.bin
+#split	0x06ECC6,0x06F2A8,objpos\slz3.bin
+#split	0x06F2A8,0x06F734,objpos\syz1.bin
+#split	0x06F734,0x06FC9E,objpos\syz2.bin
+#split	0x06FC9E,0x0702A4,objpos\syz3.bin
+#split	0x0702A4,0x0709E2,objpos\sbz1.bin
+#split	0x0709E2,0x0710C0,objpos\sbz2.bin
+#split	0x0710C0,0x0710D2,objpos\fz.bin
+#split	0x0710D2,0x071104,objpos\sbz1pf1.bin
+#split	0x071104,0x071136,objpos\sbz1pf2.bin
+#split	0x071136,0x071168,objpos\sbz1pf3.bin
+#split	0x071168,0x07119A,objpos\sbz1pf4.bin
+#split	0x07119A,0x0711CC,objpos\sbz1pf5.bin
+#split	0x0711CC,0x071204,objpos\sbz1pf6.bin
+#split	0x071204,0x071360,objpos\ending.bin
+
+
+/***********************Demo data***************************/
+#split	0x0042AC,0x00432C,demodata\i_ghz.bin
+#split	0x00432C,0x00445C,demodata\i_mz.bin
+#split	0x00445C,0x0044DC,demodata\i_syz.bin
+#split	0x0044DC,0x0045DC,demodata\i_ss.bin
+#split	0x005D50,0x005D7E,demodata\e_ghz1.bin
+#split	0x005D7E,0x005DBE,demodata\e_mz.bin
+#split	0x005DBE,0x005DEE,demodata\e_syz.bin
+#split	0x005DEE,0x005E1E,demodata\e_lz.bin
+#split	0x005E1E,0x005E3E,demodata\e_slz.bin
+#split	0x005E3E,0x005E5E,demodata\e_sbz1.bin
+#split	0x005E5E,0x005E8E,demodata\e_sbz2.bin
+#split	0x005E8E,0x005EBE,demodata\e_ghz2.bin
+
+
+/***********************Sound driver***************************/
+#split	0x072E7C,0x072F2C,sound\z80_1.bin
+#split	0x072F31,0x0745DC,sound\z80_2.bin
+
+
+/***********************PSGs***************************/
+#split	0x0719CC,0x0719E3,sound\psg1.bin
+#split	0x0719E3,0x0719EA,sound\psg2.bin
+#split	0x0719EA,0x0719FB,sound\psg3.bin
+#split	0x0719FB,0x071A06,sound\psg4.bin
+#split	0x071A06,0x071A15,sound\psg6.bin
+#split	0x071A15,0x071A3F,sound\psg5.bin
+#split	0x071A3F,0x071A5B,sound\psg7.bin
+#split	0x071A5B,0x071A83,sound\psg8.bin
+#split	0x071A83,0x071A94,sound\psg9.bin
+
+
+/***********************Music***************************/
+#split	0x0745DC,0x074D44,sound\music81.bin
+#split	0x074D44,0x075194,sound\music82.bin
+#split	0x075194,0x0755F2,sound\music83.bin
+#split	0x0755F2,0x075A60,sound\music84.bin
+#split	0x075A60,0x075EAC,sound\music85.bin
+#split	0x075EAC,0x0763FC,sound\music86.bin
+#split	0x0763FC,0x0765E2,sound\music87.bin
+#split	0x0765E2,0x0766D0,sound\music88.bin
+#split	0x0766D0,0x0769FC,sound\music89.bin
+#split	0x0769FC,0x076BA8,sound\music8A.bin
+#split	0x076BA8,0x076E42,sound\music8B.bin
+#split	0x076E42,0x07705E,sound\music8C.bin
+#split	0x07705E,0x07727A,sound\music8D.bin
+#split	0x07727A,0x0773D0,sound\music8E.bin
+#split	0x0773D0,0x077520,sound\music8F.bin
+#split	0x077520,0x07767E,sound\music90.bin
+#split	0x07767E,0x07894C,sound\music91.bin
+#split	0x07894C,0x078A76,sound\music92.bin
+#split	0x078A76,0x078B44,sound\music93.bin
+
+
+/***********************Sound Effects***************************/
+#split	0x078C08,0x078C1E,sound\soundA0.bin
+#split	0x078C1E,0x078C48,sound\soundA1.bin
+#split	0x078C48,0x078C68,sound\soundA2.bin
+#split	0x078C68,0x078C9A,sound\soundA3.bin
+#split	0x078C9A,0x078CD0,sound\soundA4.bin
+#split	0x078CD0,0x078CFC,sound\soundA5.bin
+#split	0x078CFC,0x078D2C,sound\soundA6.bin
+#split	0x078D2C,0x078D5C,sound\soundA7.bin
+#split	0x078D5C,0x078D90,sound\soundA8.bin
+#split	0x078D90,0x078DA2,sound\soundA9.bin
+#split	0x078DA2,0x078DE4,sound\soundAA.bin
+#split	0x078DE4,0x078E04,sound\soundAB.bin
+#split	0x078E04,0x078E38,sound\soundAC.bin
+#split	0x078E38,0x078E6E,sound\soundAD.bin
+#split	0x078E6E,0x078EB8,sound\soundAE.bin
+#split	0x078EB8,0x078EE6,sound\soundAF.bin
+#split	0x078EE6,0x078F18,sound\soundB0.bin
+#split	0x078F18,0x078F44,sound\soundB1.bin
+#split	0x078F44,0x078F94,sound\soundB2.bin
+#split	0x078F94,0x078FDE,sound\soundB3.bin
+#split	0x078FDE,0x07903A,sound\soundB4.bin
+#split	0x07903A,0x079068,sound\soundB5.bin
+#split	0x079068,0x079086,sound\soundB6.bin
+#split	0x079086,0x0790C2,sound\soundB7.bin
+#split	0x0790C2,0x0790E0,sound\soundB8.bin
+#split	0x0790E0,0x079144,sound\soundB9.bin
+#split	0x079144,0x07916C,sound\soundBA.bin
+#split	0x07916C,0x079198,sound\soundBB.bin
+#split	0x079198,0x0791DA,sound\soundBC.bin
+#split	0x0791DA,0x07922E,sound\soundBD.bin
+#split	0x07922E,0x079268,sound\soundBE.bin
+#split	0x079268,0x0792DA,sound\soundBF.bin
+#split	0x0792DA,0x079308,sound\soundC0.bin
+#split	0x079308,0x079342,sound\soundC1.bin
+#split	0x079342,0x07936C,sound\soundC2.bin
+#split	0x07936C,0x0793E6,sound\soundC3.bin
+#split	0x0793E6,0x07940E,sound\soundC4.bin
+#split	0x07940E,0x079476,sound\soundC5.bin
+#split	0x079476,0x0794B8,sound\soundC6.bin
+#split	0x0794B8,0x0794E6,sound\soundC7.bin
+#split	0x0794E6,0x0794F8,sound\soundC8.bin
+#split	0x0794F8,0x079526,sound\soundC9.bin
+#split	0x079526,0x079554,sound\soundCA.bin
+#split	0x079554,0x0795A0,sound\soundCB.bin
+#split	0x0795A0,0x0795DA,sound\soundCC.bin
+#split	0x0795DA,0x0795E8,sound\soundCD.bin
+#split	0x0795E8,0x079616,sound\soundCE.bin
+#split	0x079616,0x07964E,sound\soundCF.bin
+#split	0x07964E,0x079688,sound\soundD0.bin
+#split	0x079688,0x080000,sound\segapcm.bin
+
+
+
+split	0x0,0x0,\0x0 - .bin
+
